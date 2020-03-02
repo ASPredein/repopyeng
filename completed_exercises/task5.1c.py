@@ -32,6 +32,6 @@ london_co = {
 test = input ('Введите имя устройства ')
 #st = list(london_co['r1'].keys())
 test2 = input ('Введите имя параметра {} '.format(list(london_co[test].keys())))
-
+test2=test2.lower()
 print(london_co[test].get(test2, 'Нет такого параметра'))
 
